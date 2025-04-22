@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "to.msn.wings.mshoppinglistapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "to.msn.wings.mshoppinglistapp"
