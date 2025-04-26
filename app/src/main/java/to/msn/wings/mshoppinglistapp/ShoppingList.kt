@@ -34,11 +34,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
+
 data class ShoppingItem(
     val id:Int,
     var name: String,
     var quantity: Int,
-     var isEditing: Boolean = false
+    var isEditing: Boolean = false
 )
 
 @Composable
